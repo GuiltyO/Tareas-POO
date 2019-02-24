@@ -1,32 +1,23 @@
-# Unidad 1: Introducción al paradigma de la programación orientado a objetos.
+# Unidad 2: Clases y Objetos
 
-## 1. Paradigma
-Modelos o estructuras definidas para llevar acabo tareas.
+## 2.1 Declaración de clases: atributos, métodos, encapsulamiento.
 
-## 2. Abstraccion
-Proceso de extraccion de los componentes que definen un objeto, sus caracteristicas y funciones.
+Una clase es un tipo de refencia definido por el usuario que define objetos. Define sus estados, comportamientos e identidad.
+Una estructura es un tipo de valor, su sintaxis y utilidad es muy similir al de una clase, es ideal para datos pequeños y una clase para datos complejos.
 
-## 3. ¿Por qué decimos que la Clase es el mecanismo de abstracción de los lenguajes OO? 
-Permite el proceso de abstraccion, tomar caracteristicas y funciones de un objeto existente para poder utilizar este objeto 
-dentro de codigo.
 
-## 4. Explica el concepto de encapsulamiento
 
-Encapsulamiento es el proteger el acceso a los datos pertenecientes a un objeto.
+## 2.2 Instanciación de una clase.
+La palabra *new* es una palabra reservada dentro de C# que reserva memoria para la inicializacion de instancias.
 
-![Encapsulado](/Tarea1/Encapsulation.jpg "Encapsulamiento")
+## 2.3 Referencia al objeto actual
 
-Un sistema que no emplea el encapsulamiento se expone a errores dentro del sitema o amenazas externas que agredan la integridad 
-de la informacion utilizada. 
 
-![Encapsulado](/Tarea1/security-protection-anti-virus-software-60504.jpeg "Sin encapsulamiento")
+## 2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores.
 
-## 5. Describe con tus palabras el concepto de herencia e ilustra el concepto con imágenes.
-Capacidad de otorgar los mismos estados y comportamientos de una clase a otra, los estados y comportamientos de clase A seran 
-transferidos a clase B y clase B podra ser modificado mas.
+## 2.6 Sobrecarga de métodos.
 
-## UML: diagrama de clases.
+## 2.7 Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios.
 
-El Lenguaje Unificado Modelado o Unified Modeling Language son una serie de metodos utilizado por multiples organizaciones para el planteamiento y diseño del desarrollo de sistemas. Son instrucciones que dictan como representar esquemas de sistemas.
 
-Es principalmente utilizado dentro del paradigma orientado a objetos ya que sus caracteristicas le permiten diseñar con facilidad sistemas de este enfoque. Tiene sus origenes en el desarrollo de metodologias en la ingenieria de software realizado por Rumbaugh, Booch y Grady alrededor de 1995 con las primeras versiones de UML. 
+
