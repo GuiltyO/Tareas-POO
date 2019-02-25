@@ -6,6 +6,10 @@ Modelos o estructuras definidas para llevar acabo tareas.
 ## 2. Abstraccion
 Proceso de extraccion de los componentes que definen un objeto, sus caracteristicas y funciones.
 
+La abstraccion de un objeto automovil, tomaria como atributos tipo de automovil, color, llantas, y como comportamientos acelerar y frenar.
+
+La abstraccion de un objeto perro, tomaria como atributos pico, alas, patas, sus comportamientos serian volar, caminar, comer y picotear.
+
 ## 3. ¿Por qué decimos que la Clase es el mecanismo de abstracción de los lenguajes OO? 
 Permite el proceso de abstraccion, tomar caracteristicas y funciones de un objeto existente para poder utilizar este objeto 
 dentro de codigo.
@@ -36,3 +40,5 @@ El Lenguaje Unificado Modelado o Unified Modeling Language son una serie de meto
 
 
 Es principalmente utilizado dentro del paradigma orientado a objetos ya que sus caracteristicas le permiten diseñar con facilidad sistemas de este enfoque. Tiene sus origenes en el desarrollo de metodologias en la ingenieria de software realizado por Rumbaugh, Booch y Grady alrededor de 1995 con las primeras versiones de UML. 
+
+![Herencia](/Tarea1/Maquina.png)
