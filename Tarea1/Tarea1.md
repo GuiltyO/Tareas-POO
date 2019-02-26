@@ -20,7 +20,7 @@ Encapsulamiento es el proteger el acceso a los datos pertenecientes a un objeto.
 
 ![Encapsulado](/Tarea1/Encapsulation.jpg "Encapsulamiento")
 
-Un sistema que no emplea el encapsulamiento se expone a errores dentro del sitema o amenazas externas que agredan la integridad 
+Un sistema que no emplea el encapsulamiento se expone a errores dentro del sistema o amenazas externas que agredan la integridad 
 de la informacion utilizada. 
 
 ![NEncapsulado](/Tarea1/security-protection-anti-virus-software-60504.jpeg "Sin encapsulamiento")
@@ -41,6 +41,7 @@ El Lenguaje Unificado Modelado o Unified Modeling Language son una serie de meto
 
 Es principalmente utilizado dentro del paradigma orientado a objetos ya que sus caracteristicas le permiten diseñar con facilidad sistemas de este enfoque. Tiene sus origenes en el desarrollo de metodologias en la ingenieria de software realizado por Rumbaugh, Booch y Grady alrededor de 1995 con las primeras versiones de UML. 
 
-2. Escribe una propuesta de una máquina que venda distintos artículos y haz el diagrama de clases del sistema que propones.
+## Escribe una propuesta de una máquina que venda distintos artículos y haz el diagrama de clases del sistema que propones.
+La propuesta es una maquina expendedora que tenga la capacidad de mantener una base de datos de los productos y su precio, pueda realizar las operaciones con dinero ingresado y pueda entregar el producto seleccionado.
 
 ![Herencia](/Tarea1/Maquina.png)
