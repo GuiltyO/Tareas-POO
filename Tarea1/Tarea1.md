@@ -41,4 +41,6 @@ El Lenguaje Unificado Modelado o Unified Modeling Language son una serie de meto
 
 Es principalmente utilizado dentro del paradigma orientado a objetos ya que sus caracteristicas le permiten diseñar con facilidad sistemas de este enfoque. Tiene sus origenes en el desarrollo de metodologias en la ingenieria de software realizado por Rumbaugh, Booch y Grady alrededor de 1995 con las primeras versiones de UML. 
 
+2. Escribe una propuesta de una máquina que venda distintos artículos y haz el diagrama de clases del sistema que propones.
+
 ![Herencia](/Tarea1/Maquina.png)
