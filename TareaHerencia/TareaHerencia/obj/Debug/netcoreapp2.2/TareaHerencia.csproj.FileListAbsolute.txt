@@ -1,0 +1,11 @@
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\bin\Debug\netcoreapp2.2\TareaHerencia.deps.json
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\bin\Debug\netcoreapp2.2\TareaHerencia.runtimeconfig.json
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\bin\Debug\netcoreapp2.2\TareaHerencia.runtimeconfig.dev.json
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\bin\Debug\netcoreapp2.2\TareaHerencia.dll
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\bin\Debug\netcoreapp2.2\TareaHerencia.pdb
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\obj\Debug\netcoreapp2.2\TareaHerencia.csprojAssemblyReference.cache
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\obj\Debug\netcoreapp2.2\TareaHerencia.csproj.CoreCompileInputs.cache
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\obj\Debug\netcoreapp2.2\TareaHerencia.AssemblyInfoInputs.cache
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\obj\Debug\netcoreapp2.2\TareaHerencia.AssemblyInfo.cs
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\obj\Debug\netcoreapp2.2\TareaHerencia.dll
+C:\Users\lol\Documents\GitHub\Tareas-POO\TareaHerencia\TareaHerencia\obj\Debug\netcoreapp2.2\TareaHerencia.pdb
