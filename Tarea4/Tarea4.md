@@ -217,3 +217,110 @@ al derivar el metodo abstracto debe de implementarse codigo como cualquier otro 
 Tendria que ser implementado en todas las clases derivadas.
 
 ## 3. Implementa el programa utilizando interfaces en lugar de herencia.
+```csharp
+using System;
+using System.Collections.Generic;
+
+public class Musico
+
+    {
+
+    public string nombre;
+
+    public Musico (string n)
+
+        {
+
+         nombre = n;
+
+        }
+   }
+
+interface IAfina
+{
+  void Afina();
+}
+
+
+public class Bajista: Musico , IAfina
+
+  {
+
+    public string instrumento;
+
+    public Bajista (string n, string i):base(n)
+    {
+        nombre = n;
+        instrumento = i;
+    }
+
+    public Bajista(string n):base(n)
+    {}
+
+    public void Afina()
+     {
+         Console.WriteLine($"{nombre} afina su {instrumento}");
+     }
+
+ }
+ 
+public class Guitarrista : Musico, IAfina
+
+     {
+
+     public string instrumento;
+
+     public Guitarrista(string n, string i):base(n)
+     {
+        nombre = n;
+        instrumento = i;
+     }
+
+     public Guitarrista(string n):base(n)
+     {}
+
+     public void Afina()
+     {
+         Console.WriteLine($"{nombre} afina su {instrumento}");
+     }
+
+     }
+
+
+ 
+
+class Program
+
+ {
+
+  public static void Main()
+
+   {
+
+  Musico musico = new Musico("Django"); 
+
+  Bajista b = new Bajista("Flea","Bajo");
+
+  Guitarrista g = new Guitarrista("Santana","Guitarra");
+
+  List<Musico> musicosList = new List<Musico>();
+
+  musicosList.Add(b);
+
+  musicosList.Add(g);
+
+ 
+
+  foreach ( Musico musicos in musicosList)
+  {
+      (musicos as IAfina).Afina();
+  }
+
+
+ // (m as IAfina).Afina()
+
+ Console.ReadKey();
+
+ }
+}
+```
