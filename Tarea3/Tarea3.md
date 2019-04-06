@@ -223,7 +223,7 @@ namespace Figura
 
  # 5.3  Haz el método Dibuja() que sea virtual y redefinelo en solo una de las clases derivadas.  
  ```csharp
-abstract class Figura
+    class Figura
     {
         public Vector2d position;
         public string fill ,border;
@@ -241,7 +241,7 @@ abstract class Figura
             border= "black";
         }
 
-        public abstract void Dibuja();
+        public virtual void Dibuja();
     }
 ```
 ```csharp
