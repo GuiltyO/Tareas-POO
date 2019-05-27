@@ -39,19 +39,5 @@ namespace Proyecto5n6
                 }
             }
         }
-
-        static public void GetLikes( List<Producto> list)
-        {
-
-            list.Sort();
-
-            foreach(Producto pro in list)
-            {
-                //if()
-                {
-                    Console.WriteLine(pro.ToString());
-                }
-            }
-        }
     }
 }
