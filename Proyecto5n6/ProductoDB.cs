@@ -8,11 +8,13 @@ using System.Runtime.Serialization.Formatters;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Diagnostics;
 using System.IO;
+using System.Runtime.InteropServices.ComTypes;
+
 
 namespace Proyecto5n6
 {
     [Serializable()]
-    public class ProductoDB 
+    public class ProductoDB : IOException 
     {
         
         public string ruteXml = Directory.GetCurrentDirectory()+@"\listaProductos.xml";
@@ -38,38 +40,50 @@ namespace Proyecto5n6
             return Products;
         }
 
-        public void Serializa(){
-           if(File.Exists(ruteXml))
+        public void Serializa()
+        {
+            try
            {
+               if(File.Exists(ruteXml))
+             {
                DeserializeXml();
-           } 
-           else 
+             } 
+             else 
+             {
+              listaProductos.Add(new Producto("00","Papas",10,01,10));
+              listaProductos.Add(new Producto("01","Galletas",16,01,5));
+              listaProductos.Add(new Producto("03","Leche",40,02,6));
+              listaProductos.Add(new Producto("04","Queso",15,02,3));
+              listaProductos.Add(new Producto("05","Jamon",30,03,3));
+              listaProductos.Add(new Producto("06","Salchicha",50,03,8));
+              }
+            }
+           catch(DirectoryNotFoundException)
            {
-            listaProductos.Add(new Producto("00","Papas",10,01,10));
-            listaProductos.Add(new Producto("01","Galletas",16,01,5));
-            listaProductos.Add(new Producto("03","Leche",40,02,6));
-            listaProductos.Add(new Producto("04","Queso",15,02,3));
-            listaProductos.Add(new Producto("05","Jamon",30,03,3));
-            listaProductos.Add(new Producto("06","Salchicha",50,03,8));
+               MessageBox.Show(dir + " not found.","Directory not found");
            }
-           if(!Directory.Exists(dir))
-           {
-               Directory.CreateDirectory(dir);
-           } 
-           else 
-           {
-            Products.Add(new Producto("00","Papas",10,01,10));
-            Products.Add(new Producto("01","Galletas",16,01,5));
-            Products.Add(new Producto("03","Leche",40,02,6));
-            Products.Add(new Producto("04","Queso",15,02,3));
-            Products.Add(new Producto("05","Jamon",30,03,3));
-            Products.Add(new Producto("06","Salchicha",50,03,8));
-           }
-           
 
            
-           
-           
+           try
+           {
+               if(!Directory.Exists(dir))
+              {
+                Directory.CreateDirectory(dir);
+              } 
+              else 
+              {
+                Products.Add(new Producto("00","Papas",10,01,10));
+                Products.Add(new Producto("01","Galletas",16,01,5));
+                Products.Add(new Producto("03","Leche",40,02,6));
+                Products.Add(new Producto("04","Queso",15,02,3));
+                Products.Add(new Producto("05","Jamon",30,03,3));
+                Products.Add(new Producto("06","Salchicha",50,03,8));
+              }
+           }
+           catch(DirectoryNotFoundException)
+           {
+               MessageBox.Show(dir + " not found.","Directory not found");
+           }
 
             SerializeXml();
             SaveProducts(Products);
@@ -83,30 +97,43 @@ namespace Proyecto5n6
 
         public void DeserializeXml()
         {
-            using (FileStream fs = File.OpenRead(ruteXml))
+            try
+            {
+                using (FileStream fs = File.OpenRead(ruteXml))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(List<Producto>));
                 listaProductos = (List<Producto>)serializer.Deserialize(fs);
             }
+            }
+            catch(FileNotFoundException){}
+            
         }
 
         public void SerializeXml()
         {
-            using (TextWriter fs = new StreamWriter(ruteXml))
+            try
+            {
+                using (TextWriter fs = new StreamWriter(ruteXml))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(List<Producto>));
                 serializer.Serialize(fs, listaProductos);
             }
+            }
+            catch(FileNotFoundException){}
         }
-
-        
-            
 
             public static List<Producto> GetProducts()
             {
+                try
+                {
                 if (!Directory.Exists(dir))
                 Directory.CreateDirectory(dir);
-                
+                }
+                catch(DirectoryNotFoundException)
+                {
+                    Message.Show(dir + "not found.", "Directory not found");
+                }
+
                 BinaryReader binaryIn = new BinaryReader(new FileStream(path, FileMode.OpenOrCreate, FileAccess.Read));
 
                 List<Producto> products = new List<Producto>();
@@ -140,7 +167,6 @@ namespace Proyecto5n6
 
             binaryOut.Close();
             }
-        
   }
 
         //Mio 

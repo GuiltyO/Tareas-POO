@@ -21,16 +21,12 @@ namespace Proyecto5n6
            Console.WriteLine("Ingresa departamento:\n01 Chucheria\n02 Lacteos\n03 Carne");
            int opcion = int.Parse(Console.ReadLine());
            Console.Clear();
+           
            Test.Serializa();
 
-           
-
            GetDepartment(opcion,Test.GetList());
-            
-            
-            
-            
-            Console.ReadKey();
+
+           Console.ReadKey();
         }
 
         static public void GetDepartment(int depto, List<Producto> list)
