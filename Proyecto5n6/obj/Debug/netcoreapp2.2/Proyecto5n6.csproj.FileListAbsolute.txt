@@ -1,0 +1,11 @@
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\bin\Debug\netcoreapp2.2\Proyecto5n6.deps.json
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\bin\Debug\netcoreapp2.2\Proyecto5n6.runtimeconfig.json
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\bin\Debug\netcoreapp2.2\Proyecto5n6.runtimeconfig.dev.json
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\bin\Debug\netcoreapp2.2\Proyecto5n6.dll
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\bin\Debug\netcoreapp2.2\Proyecto5n6.pdb
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\obj\Debug\netcoreapp2.2\Proyecto5n6.csprojAssemblyReference.cache
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\obj\Debug\netcoreapp2.2\Proyecto5n6.csproj.CoreCompileInputs.cache
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\obj\Debug\netcoreapp2.2\Proyecto5n6.AssemblyInfoInputs.cache
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\obj\Debug\netcoreapp2.2\Proyecto5n6.AssemblyInfo.cs
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\obj\Debug\netcoreapp2.2\Proyecto5n6.dll
+C:\Users\lol\Documents\GitHub\Tareas-POO\Proyecto5n6\obj\Debug\netcoreapp2.2\Proyecto5n6.pdb

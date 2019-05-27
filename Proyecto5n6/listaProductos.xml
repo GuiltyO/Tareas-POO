@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProducto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Producto>
+    <codigo>00</codigo>
+    <descripcion>Papas</descripcion>
+    <precio>10</precio>
+    <departamento>1</departamento>
+    <likes>10</likes>
+  </Producto>
+  <Producto>
+    <codigo>01</codigo>
+    <descripcion>Galletas</descripcion>
+    <precio>16</precio>
+    <departamento>1</departamento>
+    <likes>5</likes>
+  </Producto>
+  <Producto>
+    <codigo>03</codigo>
+    <descripcion>Leche</descripcion>
+    <precio>40</precio>
+    <departamento>2</departamento>
+    <likes>6</likes>
+  </Producto>
+  <Producto>
+    <codigo>04</codigo>
+    <descripcion>Queso</descripcion>
+    <precio>15</precio>
+    <departamento>2</departamento>
+    <likes>3</likes>
+  </Producto>
+  <Producto>
+    <codigo>05</codigo>
+    <descripcion>Jamon</descripcion>
+    <precio>30</precio>
+    <departamento>3</departamento>
+    <likes>3</likes>
+  </Producto>
+  <Producto>
+    <codigo>06</codigo>
+    <descripcion>Salchicha</descripcion>
+    <precio>50</precio>
+    <departamento>3</departamento>
+    <likes>8</likes>
+  </Producto>
+</ArrayOfProducto>
